@@ -6,7 +6,7 @@ from urllib3.util.retry import Retry
 from requests.adapters import HTTPAdapter
 
 # GitHub API token
-GITHUB_TOKEN = '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'
+GITHUB_TOKEN = 'Enter your Github token'
 HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"}
 
 # Session with retry strategy
